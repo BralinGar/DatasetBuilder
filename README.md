@@ -13,4 +13,6 @@ Utilize cv2 tracking to track a bounding box to your objects in a video. Creates
 - (Anaconda)Open the virtual enviornment by typing `conda activate datacreate`
 - In a terminal, install the packages to utilizing the python scripts: `pip install opencv-contrib-python` and `pip install pascal-voc-writer`
 ## Implementation
-- In a terminal, navigate to the python scripts path. 
+- In a terminal, navigate to the installed python scripts path. 
+- Insert all your training data videos in the file path with all the installed python scripts
+- Type `python find_bb.py "video_name".mp4`
