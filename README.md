@@ -10,3 +10,6 @@ Utilize cv2 tracking to track a bounding box to your objects in a video. Creates
 > This program has only been tested on windows operating systems, you may find issues when using other operating systems.
 - Install [Python 3.8](https://www.python.org/downloads/release/python-3812/) or install [Anaconda](https://www.anaconda.com/products/individual)
 > Recommened to use the Anaconda method
+- (Anaconda)Open a terminal, either cmd or powershell, and create a anaconda virtual enviornment by typing `conda create -n datacreate python=3.8`
+- (Anaconda)Open the virtual enviornment by typing `conda activate datacreate'
+- 
