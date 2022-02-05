@@ -28,3 +28,7 @@ Utilize cv2 tracking to track a bounding box to your objects in a video. Creates
 > If using more than one training video, repeat the find_bb.py program and then the tracking.py program with the video file name
 
 - Once complete you should have a list of xml files along with a list of jpg files in different directories, these files can be uploaded to google drive to follow to training of a tensorflow model utilizing the [Object Detection with TensorFlow Lite Model Maker](https://colab.research.google.com/github/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/tutorials/model_maker_object_detection.ipynb)
+
+
+## Acknowledgements
+I would like to thank [Liz Looney](https://github.com/google/ftc-object-detection) as the basis for the python scripts is from them. Their scripts are a bit outdated for the tensorflow lite model creation for today's FTC SDK, but the scripts can be manipulated to mimmick the FTC-ML Tool Chain data builder. The only addition I have made to Liz Looney scripts is implement PASCOL VOC format to the image annotations.
