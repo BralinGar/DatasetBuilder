@@ -24,3 +24,7 @@ Utilize cv2 tracking to track a bounding box to your objects in a video. Creates
 - Type `python find_bb.py "video_name".mp4`, once you draw your inital bounding box close the program with 'q'.
 
 - Type `python tracking.py "video_name".mp4 -t [Tracking model] -f [Number of steps between each frame to save]`
+
+> If using more than one training video, repeat the find_bb.py program and then the tracking.py program with the video file name
+
+- Once complete you should have a list of xml files along with a list of jpg files in different directories, these files can be uploaded to google drive to follow to training of a tensorflow model utilizing the [Object Detection with TensorFlow Lite Model Maker](https://colab.research.google.com/github/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/tutorials/model_maker_object_detection.ipynb)
