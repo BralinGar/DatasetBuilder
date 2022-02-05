@@ -4,6 +4,7 @@
 Utilize cv2 tracking to track a bounding box to your objects in a video. Creates the image files of video frames and the annotation data in PASCAL VOC format. This data can then be trained by utilzing the [Object Detection with TensorFlow Lite Model Maker](https://colab.research.google.com/github/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/tutorials/model_maker_object_detection.ipynb)
 ## FTC Notes
 - If you are not already using FTC-ML(FTC Machine Learning Tool Chain), please use the FTC-ML as it provides better resources and accessibility to most FTC Teams.
+> Follow the FTC-ML setup and usage [here](https://storage.googleapis.com/ftc-ml-firstinspires-prod/docs/ftc-ml_manual_2021.pdf)
 
 - Only use this method if you are running into issues with the FTC-ML, as this process for building data is less accessible and relies on computer resources.
 ## Setup
