@@ -31,4 +31,4 @@ Utilize cv2 tracking to track a bounding box to your objects in a video. Creates
 
 
 ## Acknowledgements
-I would like to thank [Liz Looney](https://github.com/google/ftc-object-detection) as the basis for the python scripts is from them. Their scripts are a bit outdated for the tensorflow lite model creation for today's FTC SDK, but the scripts can be manipulated to mimmick the FTC-ML Tool Chain data builder. The only addition I have made to Liz Looney scripts is implement PASCOL VOC format to the image annotations.
+I would like to thank [Liz Looney](https://github.com/google/ftc-object-detection) as the basis for the python scripts is from them. Their scripts are a bit outdated for the tensorflow lite model creation for today's FTC SDK, but the scripts can be manipulated to mimmick the FTC-ML Tool Chain data builder. The only addition I have made to Liz Looney scripts is the implementation of PASCAL VOC format to the image annotations.
