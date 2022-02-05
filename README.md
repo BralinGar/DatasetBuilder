@@ -15,4 +15,5 @@ Utilize cv2 tracking to track a bounding box to your objects in a video. Creates
 ## Implementation
 - In a terminal, navigate to the installed python scripts path. 
 - Insert all your training data videos in the file path with all the installed python scripts
-- Type `python find_bb.py "video_name".mp4`
+- Type `python find_bb.py "video_name".mp4`, once you draw your inital bounding box close the program with 'q'.
+- Type `python tracking.py "video_name".mp4 -t [Tracking model] -f [Number of steps between each frame to save]`
