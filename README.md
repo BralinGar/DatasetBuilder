@@ -6,7 +6,7 @@ Utilize cv2 tracking to track a bounding box to your objects in a video. Creates
 - If you are not already using FTC-ML(FTC Machine Learning Tool Chain), please use the FTC-ML as it provides better resources and accessibility to most FTC Teams.
 > Follow the FTC-ML setup and usage [here](https://storage.googleapis.com/ftc-ml-firstinspires-prod/docs/ftc-ml_manual_2021.pdf)
 
-- Only use this method if you are running into issues with the FTC-ML, as this process for building data is less accessible and relies on computer resources.
+- Only use this method if you are running into issues with the FTC-ML, as this process for building a dataset is less accessible and relies on computer resources.
 ## Setup
 > This program has only been tested on windows operating systems, you may find issues when using other operating systems.
 - Install [Python 3.8](https://www.python.org/downloads/release/python-3812/) or install [Anaconda](https://www.anaconda.com/products/individual)
