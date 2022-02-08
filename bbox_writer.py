@@ -32,7 +32,7 @@ def write_bboxes(bboxes, classes, filename, frame, name):
         p0 = bbox[:2]
         size = bbox[2:]
         p1 = p0 + size
-        writer.addObject(cls, p0[0], p0[1], p1[0], p1[1])
+        writer.addObject(cls, int(float(p0[0])), int(float(p0[1])), int(float(p1[0])), int(float(p1[1])))
     writer.save(name)
 
 def write_firstboxes(bboxes, classes, filename):
